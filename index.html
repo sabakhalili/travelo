@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="shortcut icon" type="image/jpg" href="img/download.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <title>travelo &mdash; Your all in one booking app</title>  
+</head>
+<body>
+    <div class = "container">
+        <header class = "header">
+            <img src="img/download.jpg" alt="travelo logo" class="logo">
+
+
+            <form action="#" class="search">
+                <input type="text" class="search__input" placeholder="Search personal photographer" >
+                <button class="search__button">
+                    <i class="fas fa-search" class="search__icon"></i>
+    
+                </button>
+            </form>
+            
+
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <i class="fas fa-bookmark fa-lg"></i>
+                    <span class="user-nav__notification">7</span>
+                </div>
+                <div class="user-nav__icon-box">
+                    <i class="fas fa-comments fa-lg"></i>
+                    <span class="user-nav__notification">13</span>
+                </div>
+                <div>
+                    <img src="img/saba_pic_black.jpg" alt="user profile" class="user-nav__user-photo">
+                    <span class="user-nav__name">Saba</span>
+                </div>
+            </nav>
+            
+        </header>
+        
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="#" class="side-nav__link ">
+                            <i class="fas fa-home fa-lg side-nav__icon"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <i class="fas fa-map-marked fa-lg side-nav__icon"></i>
+                            <span>Destination</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <i class="fas fa-camera-retro fa-lg side-nav__icon"></i>
+                            <span>Best Photographer</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <i class="fas fa-glass-cheers fa-lg side-nav__icon"></i>
+                            <span>Occasions</span>
+                        </a>
+                    </li>
+                </ul>
+
+
+                <div class="legal">
+                    &copy; All rights reserved.
+                </div>
+            </nav>
+            <main class="options-picture">
+                <div class="gallery">
+                    <figure class="gallery__item">
+                        <img src="img/solo.jpg" alt="solo traveller" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="img/family photo.jpg" alt="family photo" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="img/marriage.jpg" alt="marriage photo" class="gallery__photo">
+                    </figure>
+                </div>
+                
+                <div class="overview">
+                    <h1 class="overwiew__heading">
+                        John Doe
+                    </h1>
+                    <div class="overview__star">
+                        <i class="fas fa-star fa-2x overview__icon-star"></i>
+                        <i class="fas fa-star fa-2x overview__icon-star"></i>
+                        <i class="fas fa-star fa-2x overview__icon-star"></i>
+                        <i class="fas fa-star fa-2x overview__icon-star"></i>
+                        <i class="fas fa-star fa-2x overview__icon-star"></i>
+                    </div>
+                    <div class="overview__location">
+                        <i class="fas fa-map-marker fa-2x overview__icon-location"></i>
+                        <button class="btn-inline">Spain</button>
+                    </div>
+                    <div class="overview__rating">
+                        <div class="overview_rating-average">8.6</div>
+                        <div class="overview_rating-votes">429 votes</div>
+                    </div>
+                </div>
+                <div class="detail">
+                    <div class="description">
+                        <p class=paragraph>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis bibendum tincidunt. Maecenas ut viverra ante. Cras elementum dui nec pellentesque venenatis. Fusce fringilla maximus ullamcorper.
+                        </p>
+                        <p class=paragraph>
+                            Morbi euismod sapien eu pulvinar pharetra. Sed maximus mauris tellus, eu euismod diam congue nec. Curabitur quis porttitor leo. Etiam a eleifend sapien. Suspendisse id est quis mauris egestas placerat ut eget tortor.                       
+                        </p>
+                        <ul class="list">
+                            <li class="list__item">Easily locate</li>
+                            <li class="list__item">Nice</li>
+                            <li class="list__item">Friendly</li>
+                            <li class="list__item">Arrives a day before</li>
+                            <li class="list__item">Good</li>
+                            <li class="list__item">Friendly</li>
+                            <li class="list__item">Friendly</li>
+                            <li class="list__item">Friendly</li>
+                        </ul>
+                        <div class="recommend">
+                            <p class="recommend__count">
+                                Saba and 3 other friends recommended this photographer
+                            </p>
+                            <div class="recommend__friends">
+                                <img src="img/saba_pic_black.jpg" class="recommend__photo">
+                                <img src="img/saba_pic_black.jpg" class="recommend__photo">
+                                <img src="img/saba_pic_black.jpg" class="recommend__photo">
+                                <img src="img/saba_pic_black.jpg" class="recommend__photo">
+                            </div>     
+                        </div>
+                    </div>
+                    <div class="user__review">
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="img/saba_pic_black.jpg" alt="user" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Nick Smith</p>
+                                    <p class="review__user-date">Feb 23rd,2020</p>
+                                </div>
+                                <div class="review__rating">6.7</div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="img/saba_pic_black.jpg" alt="user" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Nick Smith</p>
+                                    <p class="review__user-date">Feb 23rd,2020</p>
+                                </div>
+                                <div class="review__rating">6.7</div>
+                            </figcaption>
+                        </figure>
+                        <button class="btn-inline">
+                            Show all
+                            <span>&rarr;</span>
+                        </button>
+                    </div>
+                </div>
+            </main>
+        </div>    
+    </div>
+    
+</body>
+</html>
